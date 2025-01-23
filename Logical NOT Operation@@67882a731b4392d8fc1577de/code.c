@@ -5,8 +5,8 @@ char* welcome() {
 }
 
 int main() {
-    float a, b;
-    scanf("%f%f" , &a, &b);
+    float a;
+    scanf("%f" , &a);
     if (a > 0 ) {
         printf("True");
     }

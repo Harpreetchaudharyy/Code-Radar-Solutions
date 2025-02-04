@@ -4,6 +4,12 @@ int main() {
     int num;
     scanf("%d", &num);
     num &= ~1;
-    printf("%d", num);
+    if (num == 1){
+        print("Set");
+    }
+    else{
+        printf("Not Set")
+    }
+    
     return 0;
 }

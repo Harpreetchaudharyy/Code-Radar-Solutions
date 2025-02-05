@@ -8,7 +8,7 @@ int main() {
     
     number = number | mask;
     
-    printf("%d\n", n, number);
+    printf("%d", n, number);
     
     return 0;
 }

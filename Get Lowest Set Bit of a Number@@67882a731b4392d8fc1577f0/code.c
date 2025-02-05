@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int num;
-    pos = 0;
+    int num, pos = 0;
     scanf("%d", &num);
 
     while ((n & 1) == 0){

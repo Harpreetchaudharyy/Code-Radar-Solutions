@@ -1,9 +1,14 @@
 #include <stdio.h>
-#include <math.h>
 
 int main() {
     int num;
+    pos = 0;
     scanf("%d", &num);
-    printf("%d\n", (int)log2(num & -num));
+
+    while ((n & 1) == 0){
+        n >>= 1;
+        pos++;
+    }
+    printf("%d\n", pos);
     return 0;
 }

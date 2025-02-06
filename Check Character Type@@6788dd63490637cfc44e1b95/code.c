@@ -3,15 +3,15 @@
 int main() {
     char alpha;
     scanf("%c", &alpha);
-    if ((char >= 'A' && char <= 'Z') || (char >= 'a' && char <= 'z' )) {
-        if (char == 'a' || char == 'e' || char == 'i' || char == 'o' || char == 'u' || char == 'A' || char == 'E' || char == 'I' || char == 'O' || char == 'U') {
+    if ((alpha >= 'A' && alpha <= 'Z') || (alpha >= 'a' && alpha <= 'z' )) {
+        if (alpha == 'a' || alpha == 'e' || alpha == 'i' || alpha == 'o' || alpha == 'u' || alpha == 'A' || alpha == 'E' || alpha == 'I' || alpha == 'O' || alpha == 'U') {
         printf("Vowel");
         }
         else {
             printf("Consonant");
         }
     }
-    if ( alpha >= '0' && alpha <= '9') {
+    else if ( alpha >= '0' && alpha <= '9') {
         printf("Digit");
     }
     else {

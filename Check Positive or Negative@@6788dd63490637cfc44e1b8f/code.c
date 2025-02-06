@@ -13,7 +13,7 @@ int main() {
         printf("Negative");
     }
     else {
-        printf("Error")
+        printf("Error");
     }
     return 0;
 }

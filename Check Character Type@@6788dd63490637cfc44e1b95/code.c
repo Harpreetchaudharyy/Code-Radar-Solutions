@@ -15,7 +15,7 @@ int main() {
         printf("Digit");
     }
     else {
-        printf("Invalid input");
+        printf("Special Character");
     }
     return 0;
 }

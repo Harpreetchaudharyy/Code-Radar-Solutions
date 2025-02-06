@@ -4,15 +4,15 @@ int main() {
     char alpha;
     scanf("%c", &alpha);
 
-    if (isupper(alpha)) {
+    if ( alpha >= 'A' && alpha <= 'Z') {
         printf("Uppercase");
     }
-    else if (islower(alpha)){
+    else if (alpha >= 'a' && alpha <= 'z'){
         printf("Lowercase");
     }
     else {
         printf("Not an alphabet");
     }
-    
+
     return 0;
 }

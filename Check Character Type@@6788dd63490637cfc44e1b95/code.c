@@ -3,14 +3,19 @@
 int main() {
     char alpha;
     scanf("%c", &alpha);
-    if (char == 'a','e','i','o','u') {
+    if (char >= 'A' && char <= 'Z') {
+        if (char == 'a','e','i','o','u') {
         printf("Vowel");
+        }
+        else {
+            printf("Consonant");
+        }
     }
-    else if ( char ) {
-        printf("");
+    if ( char >= 1 && char <= 9) {
+        printf("Digit");
     }
     else {
-        printf("Digit");
+        printf("Invalid input");
     }
     return 0;
 }

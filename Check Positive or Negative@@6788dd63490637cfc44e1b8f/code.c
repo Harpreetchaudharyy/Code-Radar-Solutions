@@ -9,8 +9,11 @@ int main() {
     else if (num = 0) {
         printf("Zero");
     }
-    else {
+    else if (num < 0){
         printf("Negative");
+    }
+    else {
+        printf("Error");
     }
     return 0;
 }

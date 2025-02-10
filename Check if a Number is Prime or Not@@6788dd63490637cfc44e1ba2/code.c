@@ -11,11 +11,10 @@ int main(){
         flag = 1;
         break;
     }
-    else {
-        printf("Prime");
-        break;
-    }
 
+   }
+   if (flag != 1) {
+    printf("Not Prime");
    }
 return 0;
 }

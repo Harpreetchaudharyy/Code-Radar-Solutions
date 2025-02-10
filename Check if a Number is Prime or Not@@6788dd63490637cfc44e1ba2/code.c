@@ -1,15 +1,19 @@
-#include <stdio.h>
+# include<stdio.h>
 
-int main() {
-    int num;
-    scanf("%d", &num);
-    if ((num <= 1) && (num % 2 == 0)) {
-        for (int i = 3; i<= sqrt(num); i+=2) {
+int main(){
+  int n;
+  scanf("%d", &n);
+
+  for (int i = 2; i <= n; i++ ){ 
+    if ( n % i == 0) {
         printf("Not Prime");
-        }
+        break;
     }
     else {
-        printf("Prime");
+        printf("Prime")
     }
-    return 0;
+
+   }
+
 }
+return 0;

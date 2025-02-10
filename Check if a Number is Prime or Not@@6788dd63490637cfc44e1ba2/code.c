@@ -9,6 +9,7 @@ int main(){
     if ( n % i == 0) {
         printf("Not Prime");
         flag +=1;
+        break;
     }
 
    }

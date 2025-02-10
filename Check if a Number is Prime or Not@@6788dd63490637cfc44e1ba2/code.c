@@ -13,7 +13,7 @@ int main(){
 
    }
   if (flag > 0) {
-    printf("Not Prime");
+    printf("Prime");
   }
 return 0;
 }

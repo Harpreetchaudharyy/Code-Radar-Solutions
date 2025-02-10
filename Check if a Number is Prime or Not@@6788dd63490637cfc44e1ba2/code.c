@@ -9,12 +9,11 @@ int main(){
     if ( n % i == 0) {
         printf("Not Prime");
         flag = 1;
-        break;
     }
 
    }
-   if (flag != 1) {
+  if (flag != 1) {
     printf("Not Prime");
-   }
+  }
 return 0;
 }

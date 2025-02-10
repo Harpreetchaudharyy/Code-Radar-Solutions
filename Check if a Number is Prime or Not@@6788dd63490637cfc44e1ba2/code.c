@@ -7,7 +7,6 @@ int main(){
 
   for (int i = 2; i <= n; i++ ){ 
     if ( n % i == 0) {
-        printf("Not Prime");
         flag +=1;
         break;
     }
@@ -15,6 +14,9 @@ int main(){
    }
   if (flag > 0) {
     printf("Prime");
+  }
+  else{
+    printf("Not Prime");
   }
 return 0;
 }

@@ -15,7 +15,11 @@ int main() {
         printf("%d", a * b);
         break;
         case '/':
-        printf("%d", a / b);
+        if (num2 != 0)
+                printf(" %d\n", num1 / num2);
+            else
+                printf("error\n");
+            break;
         break;
         default:
         printf("Invalid");

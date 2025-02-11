@@ -21,7 +21,8 @@ int main() {
         printf("30");
         break;
         case 2:
-        preintf("28")
+        preintf("28");
+        break;
     }
     return 0;
 }
